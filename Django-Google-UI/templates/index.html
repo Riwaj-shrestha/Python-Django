@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    </head>
+
+
+    <body>
+        <div class="navbar">
+            <!-- Google homepage navigation bar -->
+
+            <span class="menu-items"> <a href="#">Gmail</a></span>
+            <span class="menu-items"><a href="#">Images</a></span>
+            <span class="menu-items"><img src="{% static 'img/gapps.png' %}" alt="google apps" width="30px"></span>
+            <span class="menu-items"><button type="button"><b>Sign in</b></button></span>
+
+        </div>
+
+        <div class="title">
+            <img src="{% static 'img/logo.png' %}" alt="google image" width="290px" class="marg">
+            <div class="search-container marg">
+                <form action="#">
+                    <input type="text" placeholder="" name="search" style="width: 450px" >
+                </form>
+                <img src="{% static 'img/mic.png' %}">
+            </div>
+            <div class="marg btn">
+                <button type="button">Google Search</button>
+                <button type="button">I'm feeling lucky</button>
+            </div>
+
+
+        <div class="nepali">
+                <p>Google offered in: <a href="#">नेपाली</a></p>
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+
+
+        <!-- Footer -->
+
+
+        <footer>
+             <div class="country">Nepal</div>
+
+            <div class="country f1">
+                <ul style="list-style: none" class="left">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+
+                <ul style="list-style: none" class="right">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+
+
+        </div>
+
+
+        </footer>
+
+
+</html>
